@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>index page</title>
+    <link rel="stylesheet" href="style.css"/>
+<link rel="stylesheet" href="/css/all.min.css" />
+    
+  </head>
+  <body>
+    <section class="header">
+      <div class="container">
+        <h3>Danny<span>WRLD</span></h3>
+       <nav id="menuList"> 
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Service</a></li>
+          <li><a href="#">Customs</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </nav>
+<i class="fa fa-bars" aria-hidden="true" onclick="togglemenu()"></i>
+      </div>
+    </section>
+    
+    <section class="body">
+      <i id="intro">World of Marketing</i>
+      <h1>Digital Marketing</h1><br>
+      <p>Digital marketing platform connecting<br><br>brands, brand ambassadors<br><br>and influencers.</p>
+      <button>Get Started   <i class="fa fa-arrow-down" aria-hidden="true"></i></button>
+    <img height="80%" width="90%" src="laptop.gif">
+    </section>
+    
+    <section class="service">
+      <div class="cloth">
+        <h3>Shop Online</h3><br>
+        <i class="span">Shop online for Deals with discounts up to 80%</i>
+        <div class="img">
+          <div class="first-img">
+            <img src="app-online-store.gif">
+            <img src="nagasoundar-n-carou-1080-1.gif">
+          </div>
+          <img class="giphy" src="giphy.gif">
+        <button>Click Me  <i class="fa fa-chevron-circle-down" aria-hidden="true"></i></button>
+        
+        <br><br>
+        
+        <img src="comp_3.gif">
+        
+        <img src="mobilephone.gif">
+        <img src="images (3).jpeg">
+        <img src="sign-up-now.gif">
+        </div>
+      </div>
+    </section>
+  
+    <script>
+      
+           var menuList = document.getElementById("menuList");
+      
+      menuList.style.display = "none"
+      
+      
+      function togglemenu() {
+
+      if(menuList.style.display == "none")
+        {
+          menuList.style.display = "block"
+          
+        }
+      else
+        {
+          menuList.style.display = "none"
+          ;
+        }
+      }
+      
+    </script>
+  </body>
+</html>
